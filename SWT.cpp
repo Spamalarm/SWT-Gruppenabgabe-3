@@ -17,7 +17,7 @@ int main()
     for(i=0;i<n-1;i++)
     {
         for(j=0;j<n-i-1;j++)
-        {
+        {//Änderung 1
             if(arr[j]>arr[j+1])
             {
                 int temp=arr[j];
@@ -26,7 +26,7 @@ int main()
             }
         }
     }
-    cout<<"After Bubble sort the array is:\n";
+    cout<<"After Bubble sort the array is:\n";//Änderung 3
     for(i=0;i<n;i++)
     cout<<arr[i]<<" ";
     return 0;
