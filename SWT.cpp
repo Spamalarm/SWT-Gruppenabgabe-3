@@ -7,24 +7,18 @@ int main()
     cin>>n;
     int arr[n],i,j;
     cout<<"Enter array values:\n";
-    //taking the array value 
-    //from user
+    
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
     }
-    //Now we will sort the array
+    
     for(i=0;i<n-1;i++)
     {
         for(j=0;j<n-i-1;j++)
         {
-            //checking if previous value is
-            //grater than next one or not
             if(arr[j]>arr[j+1])
             {
-                //temp will temporarly store
-                //the value of arr[j]
-                //then we will swap the values
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
