@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int n;
+	//cout weil count zu schwer wäre.
     cout<<"Enter number of element you want to store: ";
     cin>>n;
     int arr[n],i,j;
