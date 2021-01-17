@@ -26,7 +26,7 @@ int main()
             }
         }
     }
-    cout<<"After Bubble sort the array is:\n";//Dinge ändern sich
+    cout<<"After Bubble sort the array is:\n";//Änderung zum 3
     for(i=0;i<n;i++)
     cout<<arr[i]<<" ";
     return 0;
