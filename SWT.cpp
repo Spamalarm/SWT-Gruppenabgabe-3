@@ -7,7 +7,7 @@ int main()
     cin>>n;
     int arr[n],i,j;
     cout<<"Enter array values:\n";
-    
+    //super for Schleife
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
